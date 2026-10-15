@@ -1,0 +1,6142 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "all",
+      "label": "全部",
+      "aliases": [
+        "全部",
+        "全部赋能",
+        "总榜"
+      ],
+      "parents": []
+    },
+    {
+      "id": "rank3",
+      "label": "三级赋能",
+      "aliases": [
+        "三级赋能",
+        "3级赋能",
+        "三级",
+        "3级"
+      ],
+      "parents": []
+    },
+    {
+      "id": "rank5",
+      "label": "五级赋能",
+      "aliases": [
+        "五级赋能",
+        "5级赋能",
+        "五级",
+        "5级"
+      ],
+      "parents": []
+    },
+    {
+      "id": "hollvania",
+      "label": "霍瓦尼亚",
+      "aliases": [
+        "霍瓦尼亚",
+        "霍瓦尼亚赋能",
+        "霍尔瓦尼亚",
+        "霍尔瓦尼亚赋能",
+        "1999赋能",
+        "1999",
+        "六人组赋能",
+        "六人组"
+      ],
+      "parents": []
+    },
+    {
+      "id": "sanctum",
+      "label": "解剖圣所",
+      "aliases": [
+        "解剖圣所",
+        "解剖圣所赋能",
+        "圣所",
+        "圣所赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "cambion",
+      "label": "殁世幽都",
+      "aliases": [
+        "殁世幽都",
+        "殁世幽都赋能",
+        "魔胎之境赋能",
+        "魔胎之境"
+      ],
+      "parents": []
+    },
+    {
+      "id": "eidolon",
+      "label": "三傻",
+      "aliases": [
+        "三傻",
+        "三傻赋能",
+        "夜灵狩猎赋能",
+        "夜灵狩猎",
+        "夜灵赋能",
+        "夜灵"
+      ],
+      "parents": [
+        "earth"
+      ]
+    },
+    {
+      "id": "duviri",
+      "label": "王境",
+      "aliases": [
+        "王境",
+        "王境赋能",
+        "言录使赋能",
+        "言录使",
+        "回廊赋能",
+        "回廊",
+        "钢铁回廊赋能",
+        "钢铁回廊",
+        "双衍",
+        "双衍赋能",
+        "双衍王境赋能",
+        "双衍王境"
+      ],
+      "parents": []
+    },
+    {
+      "id": "zariman",
+      "label": "扎里曼",
+      "aliases": [
+        "扎里曼",
+        "扎里曼赋能",
+        "扎里曼号赋能",
+        "扎里曼号"
+      ],
+      "parents": []
+    },
+    {
+      "id": "primary",
+      "label": "主要",
+      "aliases": [
+        "主要",
+        "主要赋能",
+        "主手赋能",
+        "主武器赋能",
+        "主要武器赋能",
+        "步枪赋能",
+        "主手",
+        "主武器",
+        "主要武器",
+        "步枪"
+      ],
+      "parents": []
+    },
+    {
+      "id": "secondary",
+      "label": "次要",
+      "aliases": [
+        "次要",
+        "次要赋能",
+        "副手赋能",
+        "副武器赋能",
+        "次要武器赋能",
+        "手枪赋能",
+        "副手",
+        "副武器",
+        "次要武器",
+        "手枪",
+        "次手",
+        "次手赋能",
+        "次武器",
+        "次武器赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "melee",
+      "label": "近战",
+      "aliases": [
+        "近战",
+        "近战赋能",
+        "刀剑赋能",
+        "刀剑",
+        "近战武器赋能",
+        "近战武器",
+        "近身武器赋能",
+        "近身武器",
+        "近身赋能",
+        "近身"
+      ],
+      "parents": []
+    },
+    {
+      "id": "archgun",
+      "label": "空战枪械",
+      "aliases": [
+        "空战枪械",
+        "空战枪械赋能",
+        "空战赋能",
+        "曲翼枪械赋能",
+        "曲翼赋能",
+        "空战",
+        "曲翼枪械",
+        "曲翼"
+      ],
+      "parents": []
+    },
+    {
+      "id": "operator",
+      "label": "指挥官",
+      "aliases": [
+        "指挥官",
+        "指挥官赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "amp",
+      "label": "增幅器",
+      "aliases": [
+        "增幅器",
+        "增幅器赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "steel-path",
+      "label": "钢铁之路",
+      "aliases": [
+        "钢铁之路",
+        "钢铁之路赋能",
+        "钢筋赋能",
+        "钢路赋能",
+        "小小黑赋能",
+        "钢铁难度赋能",
+        "追猎者赋能",
+        "钢铁模式赋能",
+        "钢筋",
+        "钢路",
+        "小小黑",
+        "钢铁难度",
+        "追猎者",
+        "钢铁模式"
+      ],
+      "parents": []
+    },
+    {
+      "id": "conjunction",
+      "label": "联结生存",
+      "aliases": [
+        "联结生存",
+        "凶魂赋能",
+        "月球凶魂浆质赋能",
+        "凶魂",
+        "月球凶魂浆质",
+        "联结生存赋能",
+        "全能生存赋能",
+        "全能生存"
+      ],
+      "parents": []
+    },
+    {
+      "id": "venus",
+      "label": "金星",
+      "aliases": [
+        "金星",
+        "金星赋能",
+        "福尔图娜赋能",
+        "索拉里斯赋能",
+        "福尔图娜",
+        "索拉里斯"
+      ],
+      "parents": []
+    },
+    {
+      "id": "deepmines",
+      "label": "深矿赏金",
+      "aliases": [
+        "深矿赏金",
+        "深矿赏金赋能",
+        "深矿赋能",
+        "深矿",
+        "夜帽赏金赋能",
+        "夜帽赋能",
+        "夜帽赏金",
+        "夜帽",
+        "蘑菇赋能",
+        "蘑菇赏金赋能",
+        "蘑菇",
+        "蘑菇赏金",
+        "蘑菇哥赋能",
+        "蘑菇哥"
+      ],
+      "parents": [
+        "venus"
+      ]
+    },
+    {
+      "id": "quills-nokko",
+      "label": "夜羽",
+      "aliases": [
+        "夜羽",
+        "夜羽赋能",
+        "nokko赋能",
+        "nokko"
+      ],
+      "parents": []
+    },
+    {
+      "id": "little-duck",
+      "label": "小鸭子",
+      "aliases": [
+        "小鸭子",
+        "小鸭子赋能",
+        "鸭子赋能",
+        "鸭子"
+      ],
+      "parents": [
+        "venus"
+      ]
+    },
+    {
+      "id": "zaw",
+      "label": "zaw",
+      "aliases": [
+        "zaw",
+        "zaw赋能",
+        "神威赋能",
+        "神威",
+        "瘟疫之星赋能",
+        "瘟疫之星",
+        "瘟疫"
+      ],
+      "parents": [
+        "earth",
+        "melee"
+      ]
+    },
+    {
+      "id": "earth",
+      "label": "地球",
+      "aliases": [
+        "地球",
+        "地球赋能",
+        "希图斯赋能",
+        "希图斯",
+        "夜灵平原赋能",
+        "夜灵平原",
+        "夜灵平野赋能",
+        "夜灵平野",
+        "平野赋能",
+        "平野"
+      ],
+      "parents": []
+    },
+    {
+      "id": "warframe",
+      "label": "战甲",
+      "aliases": [
+        "战甲",
+        "战甲赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "kitgun",
+      "label": "组合枪",
+      "aliases": [
+        "组合枪",
+        "组合枪赋能",
+        "kitgun",
+        "kitgun赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "arbitration",
+      "label": "仲裁",
+      "aliases": [
+        "仲裁",
+        "仲裁赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "ascension",
+      "label": "飞升",
+      "aliases": [
+        "飞升",
+        "飞升赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "mirror-defense",
+      "label": "镜像防御",
+      "aliases": [
+        "镜像防御",
+        "镜像防御赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "railjack",
+      "label": "比邻星",
+      "aliases": [
+        "比邻星",
+        "比邻星赋能",
+        "九重天",
+        "九重天赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "descendia",
+      "label": "沉沦之地",
+      "aliases": [
+        "沉沦之地",
+        "沉沦之地赋能",
+        "恶魔三重奏",
+        "恶魔三重奏赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "artifacts",
+      "label": "专属神器",
+      "aliases": [
+        "专属神器",
+        "专属神器赋能"
+      ],
+      "parents": []
+    },
+    {
+      "id": "legacy",
+      "label": "旧版赋能",
+      "aliases": [
+        "旧版赋能",
+        "旧版"
+      ],
+      "parents": []
+    }
+  ],
+  "entries": [
+    {
+      "canonical": "Exodia Triumph",
+      "displayName": "神威·凯旋",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusChannelingDamage",
+      "maxRank": 3,
+      "marketSlug": "exodia_triumph",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Ostron (Hok), Kin"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7237f742"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Exodia Might",
+      "displayName": "神威·力量",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/FinisherLifesteal",
+      "maxRank": 3,
+      "marketSlug": "exodia_might",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Ostron (Hok), Kin"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e41c6c58"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Exodia Brave",
+      "displayName": "神威·勇武",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ChannelKillEnergyRate",
+      "maxRank": 3,
+      "marketSlug": "exodia_brave",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Ostron (Hok), Kin"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.4b350745"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Exodia Valor",
+      "displayName": "神威·勇猛",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritChannelingDamage",
+      "maxRank": 3,
+      "marketSlug": "exodia_valor",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Ostron (Hok), Kin"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.62d0587f"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Exodia Force",
+      "displayName": "神威·气力",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusTriggerRadialDamage",
+      "maxRank": 3,
+      "marketSlug": "exodia_force",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Ostron (Hok), Kin"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3bf4dc31"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Exodia Epidemic",
+      "displayName": "神威·流行病",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeArcaneShockwaveOnJump",
+      "maxRank": 3,
+      "marketSlug": "exodia_epidemic",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Operational Supply, Defender"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3d8ebce9"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Exodia Hunt",
+      "displayName": "神威·狩猎",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GroundSlamPull",
+      "maxRank": 3,
+      "marketSlug": "exodia_hunt",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Ostron (Hok), Kin"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.8c870802"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Exodia Contagion",
+      "displayName": "神威·触染",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeArcaneProjectileOnJump",
+      "maxRank": 3,
+      "marketSlug": "exodia_contagion",
+      "tradable": true,
+      "equipmentClass": "Zaw",
+      "slotLabel": "Zaw",
+      "categories": [
+        "earth",
+        "melee",
+        "rank3",
+        "zaw"
+      ],
+      "sources": [
+        "Operational Supply, Defender"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2fbb9162"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Zid-An Uskos",
+      "displayName": "齐乌",
+      "officialUniqueName": "wiki-arcane:Zid-An Uskos",
+      "maxRank": 5,
+      "marketSlug": "zid-an-uskos",
+      "tradable": true,
+      "equipmentClass": "Tektolyst Artifacts",
+      "slotLabel": "专属神器",
+      "categories": [
+        "artifacts",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Marie rotating shop (random Perita resources)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7928da91"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Zid-An Haras",
+      "displayName": "齐哈",
+      "officialUniqueName": "wiki-arcane:Zid-An Haras",
+      "maxRank": 5,
+      "marketSlug": "zid-an-haras",
+      "tradable": true,
+      "equipmentClass": "Tektolyst Artifacts",
+      "slotLabel": "专属神器",
+      "categories": [
+        "artifacts",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Marie rotating shop (random Perita resources)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.046df8f6"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Zid-An Sek-Eel",
+      "displayName": "齐塞",
+      "officialUniqueName": "wiki-arcane:Zid-An Sek-Eel",
+      "maxRank": 5,
+      "marketSlug": "zid-an-sek-eel",
+      "tradable": true,
+      "equipmentClass": "Tektolyst Artifacts",
+      "slotLabel": "专属神器",
+      "categories": [
+        "artifacts",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Marie rotating shop (random Perita resources)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.0e7d1554"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Zid-An Osbok",
+      "displayName": "齐奥",
+      "officialUniqueName": "wiki-arcane:Zid-An Osbok",
+      "maxRank": 5,
+      "marketSlug": "zid-an-osbok",
+      "tradable": true,
+      "equipmentClass": "Tektolyst Artifacts",
+      "slotLabel": "专属神器",
+      "categories": [
+        "artifacts",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Marie rotating shop (random Perita resources)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e8b9e611"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Zid-An Asheir",
+      "displayName": "齐阿",
+      "officialUniqueName": "wiki-arcane:Zid-An Asheir",
+      "maxRank": 5,
+      "marketSlug": "zid-an-asheir",
+      "tradable": true,
+      "equipmentClass": "Tektolyst Artifacts",
+      "slotLabel": "专属神器",
+      "categories": [
+        "artifacts",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Marie rotating shop (random Perita resources)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e7dd1938"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Crux",
+      "displayName": "主要·准星",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/StatusAndAmmoEfficiencyOnWeakpointHit",
+      "maxRank": 5,
+      "marketSlug": "primary_crux",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "hollvania",
+        "primary",
+        "rank5"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "Eleanor of The Hex, Fresh Slice",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.a66207fd"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Compression",
+      "displayName": "主要·压缩",
+      "officialUniqueName": "wiki-arcane:Primary Compression",
+      "maxRank": 5,
+      "marketSlug": "primary_compression",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "primary",
+        "railjack",
+        "rank5"
+      ],
+      "sources": [
+        "Hunhow at Pontis Tower",
+        "Uranus Proxima Completion Bonuses"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.5558b549"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Bulwark",
+      "displayName": "主要·堡垒",
+      "officialUniqueName": "wiki-arcane:Primary Bulwark",
+      "maxRank": 5,
+      "marketSlug": "primary_bulwark",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "descendia",
+        "primary",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.0e47b8fd"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Merciless",
+      "displayName": "主要·无情",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnKill",
+      "maxRank": 5,
+      "marketSlug": "primary_merciless",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "primary",
+        "rank5",
+        "steel-path"
+      ],
+      "sources": [
+        "Angst (Level 0 - 100)",
+        "Malice (Level 0 - 100)",
+        "Mania (Level 0 - 100)",
+        "Misery (Level 0 - 100)",
+        "Torment (Level 0 - 100)",
+        "Violence (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.aec18df7"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Deadhead",
+      "displayName": "主要·死首",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnNoMelee",
+      "maxRank": 5,
+      "marketSlug": "primary_deadhead",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "primary",
+        "rank5",
+        "steel-path"
+      ],
+      "sources": [
+        "Angst (Level 0 - 100)",
+        "Malice (Level 0 - 100)",
+        "Mania (Level 0 - 100)",
+        "Misery (Level 0 - 100)",
+        "Torment (Level 0 - 100)",
+        "Violence (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.5993a403"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Blight",
+      "displayName": "主要·毒侵",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryHeadshotCritMultOnHeadshot",
+      "maxRank": 5,
+      "marketSlug": "primary_blight",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "deepmines",
+        "duviri",
+        "primary",
+        "quills-nokko",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Deepmines Bounties from Nightcap",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Duviri/Endless: Tier 6 (Hard)",
+        "Duviri/Endless: Tier 7 (Hard)",
+        "Nightcap in Fortuna",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.03ff4cb0"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Obstruct",
+      "displayName": "主要·滞阻",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryJamEnemyWeaponsOnMagneticProc",
+      "maxRank": 5,
+      "marketSlug": "primary_obstruct",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "duviri",
+        "primary",
+        "rank5"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.58f6ca8b"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Exhilarate",
+      "displayName": "主要·激昂",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryEnergyRegenOnImpactProc",
+      "maxRank": 5,
+      "marketSlug": "primary_exhilarate",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "duviri",
+        "primary",
+        "rank5"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.75235142"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Dexterity",
+      "displayName": "主要·熟练",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamageOnMeleeKill",
+      "maxRank": 5,
+      "marketSlug": "primary_dexterity",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "primary",
+        "rank5",
+        "steel-path"
+      ],
+      "sources": [
+        "Angst (Level 0 - 100)",
+        "Malice (Level 0 - 100)",
+        "Mania (Level 0 - 100)",
+        "Misery (Level 0 - 100)",
+        "Torment (Level 0 - 100)",
+        "Violence (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9705f431"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Debilitate",
+      "displayName": "主要·衰弱",
+      "officialUniqueName": "wiki-arcane:Primary Debilitate",
+      "maxRank": 5,
+      "marketSlug": "primary_debilitate",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "descendia",
+        "primary",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e6d6abdf"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Overcharge",
+      "displayName": "主要·过载",
+      "officialUniqueName": "wiki-arcane:Primary Overcharge",
+      "maxRank": 5,
+      "marketSlug": "primary_overcharge",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "descendia",
+        "primary",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.832960ff"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Plated Round",
+      "displayName": "主要·镀金弹头",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDamagePerAmmoOnReload",
+      "maxRank": 5,
+      "marketSlug": "primary_plated_round",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "cambion",
+        "mirror-defense",
+        "primary",
+        "rank5"
+      ],
+      "sources": [
+        "Mars/Tyana Pass (Defense), Rotation B"
+      ],
+      "note": "空战适用性待复核，不能由主武器标签推断。",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.734177dc"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Primary Frostbite",
+      "displayName": "主要·霜冻",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryCritDmgAndMultishotOnColdProc",
+      "maxRank": 5,
+      "marketSlug": "primary_frostbite",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "conjunction",
+        "deepmines",
+        "primary",
+        "quills-nokko",
+        "rank5",
+        "venus",
+        "zariman"
+      ],
+      "sources": [
+        "Archimedean Yonta",
+        "Deepmines Bounties from Nightcap",
+        "Lua/Circulus (Survival), Rotation C",
+        "Nightcap in Fortuna"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.c6e5377d"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/32-2-0",
+          "scope": "Conjunction survival and Yonta exchange"
+        }
+      ]
+    },
+    {
+      "canonical": "Fractalized Reset",
+      "displayName": "分形·重置",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/PrimaryOnAbilityReloadSpeed",
+      "maxRank": 5,
+      "marketSlug": "fractalized_reset",
+      "tradable": true,
+      "equipmentClass": "Primary",
+      "slotLabel": "主武器",
+      "categories": [
+        "archgun",
+        "primary",
+        "rank5",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Fallen",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.1bc42e00"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Akimbo Slip Shot",
+      "displayName": "双枪·滑射",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnSliding",
+      "maxRank": 5,
+      "marketSlug": "akimbo_slip_shot",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "duviri",
+        "rank5",
+        "secondary"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Duviri/Endless: Tier 6 (Hard)",
+        "Duviri/Endless: Tier 7 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "空战仅适用于 Dual Decurion、Prisma Dual Decurion。",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2b668cc2"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Cryogenic",
+      "displayName": "次要·低温",
+      "officialUniqueName": "wiki-arcane:Secondary Cryogenic",
+      "maxRank": 5,
+      "marketSlug": "secondary_cryogenic",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "railjack",
+        "rank5",
+        "secondary"
+      ],
+      "sources": [
+        "Hunhow at Pontis Tower",
+        "Uranus Proxima Completion Bonuses"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.bf583be9"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Shiver",
+      "displayName": "次要·冷颤",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryExtraDamagePerFreezeStack",
+      "maxRank": 5,
+      "marketSlug": "secondary_shiver",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "duviri",
+        "rank5",
+        "secondary"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Tier 2 (Hard)",
+        "Duviri/Endless: Tier 6 (Hard)",
+        "Duviri/Endless: Tier 7 (Hard)",
+        "Duviri/Endless: Tier 8 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.687a4dc0"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Enervate",
+      "displayName": "次要·失活",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritOnHit",
+      "maxRank": 5,
+      "marketSlug": "secondary_enervate",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "hollvania",
+        "rank5",
+        "secondary"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "Eleanor of The Hex, Pizza Party",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.4355e3b9"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Encumber",
+      "displayName": "次要·妨害",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
+      "maxRank": 5,
+      "marketSlug": "secondary_encumber",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "cambion",
+        "deepmines",
+        "mirror-defense",
+        "quills-nokko",
+        "rank5",
+        "secondary",
+        "venus"
+      ],
+      "sources": [
+        "Deepmines Bounties from Nightcap",
+        "Mars/Tyana Pass (Defense), Rotation C",
+        "Nightcap in Fortuna"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.fa6b2690"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Kinship",
+      "displayName": "次要·手足",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryCritChancePerBuff",
+      "maxRank": 5,
+      "marketSlug": "secondary_kinship",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "cambion",
+        "mirror-defense",
+        "rank5",
+        "secondary"
+      ],
+      "sources": [
+        "Mars/Tyana Pass (Defense), Rotation B"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.06c1006a"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Merciless",
+      "displayName": "次要·无情",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnKill",
+      "maxRank": 5,
+      "marketSlug": "secondary_merciless",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "rank5",
+        "secondary",
+        "steel-path"
+      ],
+      "sources": [
+        "Angst (Level 0 - 100)",
+        "Malice (Level 0 - 100)",
+        "Mania (Level 0 - 100)",
+        "Misery (Level 0 - 100)",
+        "Torment (Level 0 - 100)",
+        "Violence (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.1715e4c7"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Deadhead",
+      "displayName": "次要·死首",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnNoMelee",
+      "maxRank": 5,
+      "marketSlug": "secondary_deadhead",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "rank5",
+        "secondary",
+        "steel-path"
+      ],
+      "sources": [
+        "Angst (Level 0 - 100)",
+        "Malice (Level 0 - 100)",
+        "Mania (Level 0 - 100)",
+        "Misery (Level 0 - 100)",
+        "Torment (Level 0 - 100)",
+        "Violence (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b7ca4709"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Surge",
+      "displayName": "次要·激涌",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageNextShotForCurEnergy",
+      "maxRank": 5,
+      "marketSlug": "secondary_surge",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "ascension",
+        "rank5",
+        "secondary"
+      ],
+      "sources": [
+        "Ordis at Drifter's Camp",
+        "Sister Of Parvos (Ascension)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9fef6964"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Irradiate",
+      "displayName": "次要·照射",
+      "officialUniqueName": "wiki-arcane:Secondary Irradiate",
+      "maxRank": 5,
+      "marketSlug": "secondary_irradiate",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "descendia",
+        "rank5",
+        "sanctum",
+        "secondary"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.264a369f"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Dexterity",
+      "displayName": "次要·熟练",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnMeleeKill",
+      "maxRank": 5,
+      "marketSlug": "secondary_dexterity",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "rank5",
+        "secondary",
+        "steel-path"
+      ],
+      "sources": [
+        "Angst (Level 0 - 100)",
+        "Malice (Level 0 - 100)",
+        "Mania (Level 0 - 100)",
+        "Misery (Level 0 - 100)",
+        "Torment (Level 0 - 100)",
+        "Violence (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b6a67c2c"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Outburst",
+      "displayName": "次要·爆发",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MultishotForCombo",
+      "maxRank": 5,
+      "marketSlug": "secondary_outburst",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "duviri",
+        "rank5",
+        "secondary"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Duviri/Endless: Tier 6 (Hard)",
+        "Duviri/Endless: Tier 7 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.efcc1022"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Secondary Fortifier",
+      "displayName": "次要·筑垒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OverguardSteal",
+      "maxRank": 5,
+      "marketSlug": "secondary_fortifier",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "ascension",
+        "deepmines",
+        "quills-nokko",
+        "rank5",
+        "secondary",
+        "venus"
+      ],
+      "sources": [
+        "Deepmines Bounties from Nightcap",
+        "Nightcap in Fortuna",
+        "Ordis at Drifter's Camp",
+        "Sister Of Parvos (Ascension)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.c8708665"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Cascadia Empowered",
+      "displayName": "瀑流·强化",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnStatusProcBonusDamage",
+      "maxRank": 5,
+      "marketSlug": "cascadia_empowered",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "rank5",
+        "secondary",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Guardian",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.dd069609"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Cascadia Overcharge",
+      "displayName": "瀑流·溢能",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnOvershieldCritChance",
+      "maxRank": 5,
+      "marketSlug": "cascadia_overcharge",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "rank5",
+        "secondary",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Angel",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.6f0fbf76"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Cascadia Accuracy",
+      "displayName": "瀑流·精准",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/SecondaryOnRollCritChanceOnHeadshot",
+      "maxRank": 5,
+      "marketSlug": "cascadia_accuracy",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "rank5",
+        "secondary",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Fallen",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.f49da000"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Cascadia Flare",
+      "displayName": "瀑流·耀炎",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryDamageOnHeatProc",
+      "maxRank": 5,
+      "marketSlug": "cascadia_flare",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "rank5",
+        "secondary",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Watcher",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.73b8ccfc"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Conjunction Voltage",
+      "displayName": "联结·电压",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryReloadSpeedAndMultishotOnElectricProc",
+      "maxRank": 5,
+      "marketSlug": "conjunction_voltage",
+      "tradable": true,
+      "equipmentClass": "Secondary",
+      "slotLabel": "副武器",
+      "categories": [
+        "archgun",
+        "conjunction",
+        "deepmines",
+        "quills-nokko",
+        "rank5",
+        "secondary",
+        "venus",
+        "zariman"
+      ],
+      "sources": [
+        "Archimedean Yonta",
+        "Deepmines Bounties from Nightcap",
+        "Lua/Circulus (Survival), Rotation B",
+        "Nightcap in Fortuna"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.c1895d4a"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/32-2-0",
+          "scope": "Conjunction survival and Yonta exchange"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Spike",
+      "displayName": "正直·尖刺",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToPunctureDamage",
+      "maxRank": 3,
+      "marketSlug": "virtuos_spike",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "little-duck",
+        "rank3",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Agent"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2a802a68"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Strike",
+      "displayName": "正直·打击",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedCriticalDamageOnCriticalStrike",
+      "maxRank": 3,
+      "marketSlug": "virtuos_strike",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "earth",
+        "quills-nokko",
+        "rank3"
+      ],
+      "sources": [
+        "The Quills, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.18ed8199"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Shadow",
+      "displayName": "正直·暗影",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/CriticalChanceOnHeadshot",
+      "maxRank": 3,
+      "marketSlug": "virtuos_shadow",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "earth",
+        "quills-nokko",
+        "rank3"
+      ],
+      "sources": [
+        "The Quills, Architect"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2981df60"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Forge",
+      "displayName": "正直·熔炉",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToHeatDamage",
+      "maxRank": 3,
+      "marketSlug": "virtuos_forge",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "little-duck",
+        "rank3",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Hand"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.4cda16e8"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Trojan",
+      "displayName": "正直·特洛伊",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToViralDamage",
+      "maxRank": 3,
+      "marketSlug": "virtuos_trojan",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "little-duck",
+        "rank3",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Hand"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.07ab808d"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Fury",
+      "displayName": "正直·狂怒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/IncreasedDamageOnStatusProc",
+      "maxRank": 3,
+      "marketSlug": "virtuos_fury",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "earth",
+        "quills-nokko",
+        "rank3"
+      ],
+      "sources": [
+        "The Quills, Adherent"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.020b8e38"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Null",
+      "displayName": "正直·空无",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/OperatorAmmoRegenOnKill",
+      "maxRank": 3,
+      "marketSlug": "virtuos_null",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "earth",
+        "quills-nokko",
+        "rank3"
+      ],
+      "sources": [
+        "The Quills, Mote"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.6788dfa7"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Surge",
+      "displayName": "正直·突波",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToElectricDamage",
+      "maxRank": 3,
+      "marketSlug": "virtuos_surge",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "little-duck",
+        "rank3",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Agent"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.55877a84"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Tempo",
+      "displayName": "正直·节奏",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/AttackSpeedOnKill",
+      "maxRank": 3,
+      "marketSlug": "virtuos_tempo",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "earth",
+        "quills-nokko",
+        "rank3"
+      ],
+      "sources": [
+        "The Quills, Observer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.d2d1a366"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Virtuos Ghost",
+      "displayName": "正直·鬼魅",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/StatusChanceOnHeadshot",
+      "maxRank": 3,
+      "marketSlug": "virtuos_ghost",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "earth",
+        "quills-nokko",
+        "rank3"
+      ],
+      "sources": [
+        "The Quills, Architect"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.78735770"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Eternal Logistics",
+      "displayName": "永恒·流转",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnVoidSlingAmpAmmoEfficiency",
+      "maxRank": 5,
+      "marketSlug": "eternal_logistics",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "rank5",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Seraph",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9fc04697"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Eternal Eradicate",
+      "displayName": "永恒·湮灭",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnOperatorAbilityIncreaseDamage",
+      "maxRank": 5,
+      "marketSlug": "eternal_eradicate",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "rank5",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Fallen",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9cd45895"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Eternal Onslaught",
+      "displayName": "永恒·猛攻",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/AmpOnEnergyDepletedCritChance",
+      "maxRank": 5,
+      "marketSlug": "eternal_onslaught",
+      "tradable": true,
+      "equipmentClass": "Amp",
+      "slotLabel": "增幅器",
+      "categories": [
+        "amp",
+        "rank5",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Watcher",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.06f96d20"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Longbow Sharpshot",
+      "displayName": "弓箭·利矢",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongbowDamageOnHeadshot",
+      "maxRank": 5,
+      "marketSlug": "longbow_sharpshot",
+      "tradable": true,
+      "equipmentClass": "Bow",
+      "slotLabel": "弓",
+      "categories": [
+        "duviri",
+        "primary",
+        "rank5"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Tier 2 (Hard)",
+        "Duviri/Endless: Tier 6 (Hard)",
+        "Duviri/Endless: Tier 7 (Hard)",
+        "Duviri/Endless: Tier 8 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2f794893"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Theorem Infection",
+      "displayName": "定理·感染",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CompanionDamageOnResidualContact",
+      "maxRank": 5,
+      "marketSlug": "theorem_infection",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "cambion",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.78a12968"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Theorem Demulcent",
+      "displayName": "定理·缓和",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/WeaponDamageOnResidualContact",
+      "maxRank": 5,
+      "marketSlug": "theorem_demulcent",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "cambion",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.dd778aa2"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Theorem Contagion",
+      "displayName": "定理·触染",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OrbsOnResidualContact",
+      "maxRank": 5,
+      "marketSlug": "theorem_contagion",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "cambion",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation C",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.743c5fe8"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Molt Augmented",
+      "displayName": "蜕化·升腾",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PowerStrengthOnKill",
+      "maxRank": 5,
+      "marketSlug": "molt_augmented",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "rank5",
+        "warframe",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Angel",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3b9cebae"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Molt Efficiency",
+      "displayName": "蜕化·效能",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnShieldUptimePowerDuration",
+      "maxRank": 5,
+      "marketSlug": "molt_efficiency",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "rank5",
+        "warframe",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Guardian",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.81c94ec1"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Molt Vigor",
+      "displayName": "蜕化·活力",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnOperatorAbilityPowerStrength",
+      "maxRank": 5,
+      "marketSlug": "molt_vigor",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "rank5",
+        "warframe",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Fallen",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.974a163c"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Molt Reconstruct",
+      "displayName": "蜕化·重塑",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealAlliesOnEnergySpent",
+      "maxRank": 5,
+      "marketSlug": "molt_reconstruct",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "rank5",
+        "warframe",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Seraph",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.edd3e70f"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Concentration",
+      "displayName": "赋能·专注",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityDurationOnCast",
+      "maxRank": 5,
+      "marketSlug": "arcane_concentration",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "descendia",
+        "rank5",
+        "sanctum",
+        "warframe"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.79526afa"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Primary Charger",
+      "displayName": "赋能·主武充能",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PrimaryDmgOnMeleeKill",
+      "maxRank": 5,
+      "marketSlug": "arcane_primary_charger",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "arbitration",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Arbitration Honors Vendor, Arbiters of Hexis Relay Room",
+        "Arbitrations, Rotation B",
+        "Arbitrations, Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.5e33666e"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Grace",
+      "displayName": "赋能·优雅",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/HealthRegenOnDamage",
+      "maxRank": 5,
+      "marketSlug": "arcane_grace",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Eidolon Hydrolyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b93128d0"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Guardian",
+      "displayName": "赋能·保卫者",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ArmourOnDamage",
+      "maxRank": 5,
+      "marketSlug": "arcane_guardian",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e3a8d4cb"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Deflection",
+      "displayName": "赋能·偏折",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SlashProcResist",
+      "maxRank": 5,
+      "marketSlug": "arcane_deflection",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst (Capture)",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b5ed7ff5"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Energize",
+      "displayName": "赋能·充沛",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneRadialEnergyOnEnergyPickup",
+      "maxRank": 5,
+      "marketSlug": "arcane_energize",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Eidolon Hydrolyst",
+        "Veil Proxima Orphix, Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.0a955c2b"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Ice",
+      "displayName": "赋能·冰冷",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FireProcResist",
+      "maxRank": 5,
+      "marketSlug": "arcane_ice",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "ascension",
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst",
+        "Eidolon Teralyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Ordis at Drifter's Camp",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Sister Of Parvos (Ascension)",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.67762cd6"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Ice Storm",
+      "displayName": "赋能·冰暴",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityPowerOnFreeze",
+      "maxRank": 5,
+      "marketSlug": "arcane_ice_storm",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "ascension",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Ordis at Drifter's Camp",
+        "Sister Of Parvos (Ascension)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e6fc32cb"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Blade Charger",
+      "displayName": "赋能·刀刃充能",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDmgOnRifleKill",
+      "maxRank": 5,
+      "marketSlug": "arcane_blade_charger",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "arbitration",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Arbitration Honors Vendor, Arbiters of Hexis Relay Room",
+        "Arbitrations, Rotation B",
+        "Arbitrations, Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.1473f634"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Power Ramp",
+      "displayName": "赋能·力升",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnCast",
+      "maxRank": 5,
+      "marketSlug": "arcane_power_ramp",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Duviri/Endless: Tier 6 (Hard)",
+        "Duviri/Endless: Tier 7 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3fb19bde"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Acceleration",
+      "displayName": "赋能·加速",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunSpeedOnCrit",
+      "maxRank": 5,
+      "marketSlug": "arcane_acceleration",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.55ddddd5"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Momentum",
+      "displayName": "赋能·动量",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneSniperSpeedOnCrit",
+      "maxRank": 5,
+      "marketSlug": "arcane_momentum",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst",
+        "Eidolon Teralyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2cb3bc0d"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Bodyguard",
+      "displayName": "赋能·卫士",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealCompanionOnSixMeleeKills",
+      "maxRank": 5,
+      "marketSlug": "arcane_bodyguard",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "arbitration",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Arbitration Honors Vendor, Arbiters of Hexis Relay Room",
+        "Arbitrations, Rotation A",
+        "Arbitrations, Rotation B"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.1d56402c"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Double Back",
+      "displayName": "赋能·回返",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/DamageResistanceStacksOverTime",
+      "maxRank": 5,
+      "marketSlug": "arcane_double_back",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "mirror-defense",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Mars/Tyana Pass (Defense), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e3cac2a5"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Steadfast",
+      "displayName": "赋能·坚定",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
+      "maxRank": 5,
+      "marketSlug": "arcane_steadfast",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "cambion",
+        "mirror-defense",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Mars/Tyana Pass (Defense), Rotation C",
+        "Otak at Necralisk"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.4a3aff6f"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Persistence",
+      "displayName": "赋能·坚韧",
+      "officialUniqueName": "wiki-arcane:Arcane Persistence",
+      "maxRank": 5,
+      "marketSlug": "arcane_persistence",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "descendia",
+        "rank5",
+        "sanctum",
+        "warframe"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9b2ce494"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Tanker",
+      "displayName": "赋能·坦克",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnHeavyGunEquipped",
+      "maxRank": 5,
+      "marketSlug": "arcane_tanker",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "arbitration",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Arbitration Honors Vendor, Arbiters of Hexis Relay Room",
+        "Arbitrations, Rotation A",
+        "Arbitrations, Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.ca7b106d"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Barrier",
+      "displayName": "赋能·壁垒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InstantShieldOnDamage",
+      "maxRank": 5,
+      "marketSlug": "arcane_barrier",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Eidolon Hydrolyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.96d58a6f"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Avenger",
+      "displayName": "赋能·复仇者",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CritChanceOnDamage",
+      "maxRank": 5,
+      "marketSlug": "arcane_avenger",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Hydrolyst",
+        "Eidolon Hydrolyst (Capture)",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.16b7a350"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Healing",
+      "displayName": "赋能·复原",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadiationProcResist",
+      "maxRank": 5,
+      "marketSlug": "arcane_healing",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b39a4b17"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Camisado",
+      "displayName": "赋能·奇袭",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthOnSummonAttack",
+      "maxRank": 5,
+      "marketSlug": "arcane_camisado",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "Eleanor of The Hex, 2-For-1",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9a22b4b6"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Rise",
+      "displayName": "赋能·崛起",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LongGunDamageOnReload",
+      "maxRank": 5,
+      "marketSlug": "arcane_rise",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "conjunction",
+        "rank5",
+        "warframe",
+        "zariman"
+      ],
+      "sources": [
+        "Lua/Circulus (Survival), Rotation B"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.bbb49fb2"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/32-2-0",
+          "scope": "Conjunction survival and Yonta exchange"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Phantasm",
+      "displayName": "赋能·幻象",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnParry",
+      "maxRank": 5,
+      "marketSlug": "arcane_phantasm",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e9318a9e"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Crepuscular",
+      "displayName": "赋能·影袭",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStrengthAndCritDamageWhenInvisible",
+      "maxRank": 5,
+      "marketSlug": "arcane_crepuscular",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "Eleanor of The Hex, Pizza Party",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.f3261814"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Intention",
+      "displayName": "赋能·心相",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealthWhileUsingChanneledAbilities",
+      "maxRank": 5,
+      "marketSlug": "arcane_intention",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.4e931527"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Rage",
+      "displayName": "赋能·愤怒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+      "maxRank": 5,
+      "marketSlug": "arcane_rage",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Hydrolyst",
+        "Eidolon Hydrolyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.f05cd57b"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Resistance",
+      "displayName": "赋能·抗毒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ElectricityProcResist",
+      "maxRank": 5,
+      "marketSlug": "arcane_resistance",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst",
+        "Eidolon Teralyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.98b7ee0e"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Reaper",
+      "displayName": "赋能·收割",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthRegenAndArmorOnMeleeKill",
+      "maxRank": 5,
+      "marketSlug": "arcane_reaper",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Tier 2 (Hard)",
+        "Duviri/Endless: Tier 6 (Hard)",
+        "Duviri/Endless: Tier 7 (Hard)",
+        "Duviri/Endless: Tier 8 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.4a6d3e13"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Truculence",
+      "displayName": "赋能·暴虐",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadialViralAttackOnOverguardGain",
+      "maxRank": 5,
+      "marketSlug": "arcane_truculence",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.6a619c18"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Pistoleer",
+      "displayName": "赋能·枪炮",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AmmoEfficiencyOnPistolHeadshot",
+      "maxRank": 5,
+      "marketSlug": "arcane_pistoleer",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "arbitration",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Arbitration Honors Vendor, Arbiters of Hexis Relay Room",
+        "Arbitrations, Rotation A",
+        "Arbitrations, Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.5126ae6b"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Nullifier",
+      "displayName": "赋能·消磁",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/MagneticProcResist",
+      "maxRank": 5,
+      "marketSlug": "arcane_nullifier",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst",
+        "Eidolon Teralyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.906d621c"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Warmth",
+      "displayName": "赋能·温暖",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/FreezeProcResist",
+      "maxRank": 5,
+      "marketSlug": "arcane_warmth",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst",
+        "Eidolon Teralyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.755ba05d"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Impetus",
+      "displayName": "赋能·激励",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStatusProcsGiveAbilityStrengthAndEfficiency",
+      "maxRank": 5,
+      "marketSlug": "arcane_impetus",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "Eleanor of The Hex, 2-For-1",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.02622993"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Agility",
+      "displayName": "赋能·灵敏",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/SpeedOnDamage",
+      "maxRank": 5,
+      "marketSlug": "arcane_agility",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.ad41572e"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Hot Shot",
+      "displayName": "赋能·热火",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityHeatProcsGiveCritChance",
+      "maxRank": 5,
+      "marketSlug": "arcane_hot_shot",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Temporal Archimedea Arcane Rewards",
+        "Temporal Archimedea Gold Rewards",
+        "Temporal Archimedea Silver Rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b41b75d9"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Eruption",
+      "displayName": "赋能·爆发",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialKnockdownOnEnergyPickup",
+      "maxRank": 5,
+      "marketSlug": "arcane_eruption",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.8c145557"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Fury",
+      "displayName": "赋能·狂怒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneMeleeDamageOnCrit",
+      "maxRank": 5,
+      "marketSlug": "arcane_fury",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Hydrolyst",
+        "Eidolon Hydrolyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.96782e15"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Pulse",
+      "displayName": "赋能·生机",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/RadialHealOnHealthPickup",
+      "maxRank": 5,
+      "marketSlug": "arcane_pulse",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.bc2db7f0"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Battery",
+      "displayName": "赋能·电池",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MaxEnergyForArmor",
+      "maxRank": 5,
+      "marketSlug": "arcane_battery",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "ascension",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Ordis at Drifter's Camp",
+        "Sister Of Parvos (Ascension)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.f06aeedb"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Aegis",
+      "displayName": "赋能·神盾",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GolemArcaneShieldRegenOnDamage",
+      "maxRank": 5,
+      "marketSlug": "arcane_aegis",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Eidolon Gantulyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.29a1aa40"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Expertise",
+      "displayName": "赋能·精湛",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ShieldMaxForAbilityStrength",
+      "maxRank": 5,
+      "marketSlug": "arcane_expertise",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "descendia",
+        "rank5",
+        "sanctum",
+        "warframe"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.8f809ad0"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Precision",
+      "displayName": "赋能·精确",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolDamageOnHeadshot",
+      "maxRank": 5,
+      "marketSlug": "arcane_precision",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.36794917"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Consequence",
+      "displayName": "赋能·结果",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneAimGlideOnHeadshot",
+      "maxRank": 5,
+      "marketSlug": "arcane_consequence",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst",
+        "Eidolon Teralyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9198d941"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Victory",
+      "displayName": "赋能·胜利",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HealthRegenOnHeadshot",
+      "maxRank": 5,
+      "marketSlug": "arcane_victory",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.930d9662"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Escapist",
+      "displayName": "赋能·脱逃",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/InvulnerabilityOnDeathOnMercyKill",
+      "maxRank": 5,
+      "marketSlug": "arcane_escapist",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Temporal Archimedea Arcane Rewards",
+        "Temporal Archimedea Gold Rewards",
+        "Temporal Archimedea Silver Rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.c82d67ef"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Tempo",
+      "displayName": "赋能·节奏",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneShotgunSpeedOnCrit",
+      "maxRank": 5,
+      "marketSlug": "arcane_tempo",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Teralyst",
+        "Eidolon Teralyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.d9058ff5"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Arachne",
+      "displayName": "赋能·蜘蛛",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/GolemArcaneBonusDamageOnWallLatch",
+      "maxRank": 5,
+      "marketSlug": "arcane_arachne",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Hydrolyst",
+        "Eidolon Hydrolyst (Capture)",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.f5da7c06"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Circumvent",
+      "displayName": "赋能·规避",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/StealDefensiveStatsOnRoll",
+      "maxRank": 5,
+      "marketSlug": "arcane_circumvent",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "descendia",
+        "rank5",
+        "sanctum",
+        "warframe"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7298c5df"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Awakening",
+      "displayName": "赋能·觉醒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/PistolDamageOnReload",
+      "maxRank": 5,
+      "marketSlug": "arcane_awakening",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.c7f13bda"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Trickery",
+      "displayName": "赋能·诡计",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/InvisibilityOnFinisher",
+      "maxRank": 5,
+      "marketSlug": "arcane_trickery",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Hydrolyst",
+        "Eidolon Hydrolyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.92489bb5"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Blessing",
+      "displayName": "赋能·赐福",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/IncreaseMaxHealthOnHealthPickup",
+      "maxRank": 5,
+      "marketSlug": "arcane_blessing",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "conjunction",
+        "rank5",
+        "warframe",
+        "zariman"
+      ],
+      "sources": [
+        "Lua/Circulus (Survival), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3ce40eaf"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/32-2-0",
+          "scope": "Conjunction survival and Yonta exchange"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Universal Fallout",
+      "displayName": "赋能·辐照",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityRadiationProcsCreateUniversalOrbsOnKill",
+      "maxRank": 5,
+      "marketSlug": "arcane_universal_fallout",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Temporal Archimedea Arcane Rewards",
+        "Temporal Archimedea Gold Rewards",
+        "Temporal Archimedea Silver Rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.5414315a"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Velocity",
+      "displayName": "赋能·迅速",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcanePistolSpeedOnCrit",
+      "maxRank": 5,
+      "marketSlug": "arcane_velocity",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Hydrolyst",
+        "Eidolon Hydrolyst (Capture)",
+        "Pluto/Khufu Envoy (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b54e371b"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Ultimatum",
+      "displayName": "赋能·通牒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/GolemArcaneArmorOnFinisher",
+      "maxRank": 5,
+      "marketSlug": "arcane_ultimatum",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst (Capture)",
+        "Neptune/Mammon's Prospect (Skirmish), Rotation C",
+        "Veil/Erato (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9cd6eba0"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Strike",
+      "displayName": "赋能·速攻",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeSpeedOnHit",
+      "maxRank": 5,
+      "marketSlug": "arcane_strike",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "duviri",
+        "earth",
+        "eidolon",
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Duviri/Endless: Tier 1 (Normal)",
+        "Duviri/Endless: Tier 3 (Normal)",
+        "Duviri/Endless: Tier 9 (Normal)",
+        "Eidolon Gantulyst",
+        "Eidolon Gantulyst (Capture)",
+        "Veil/Erato (Skirmish), Rotation C",
+        "Venus/Vesper Strait (Skirmish), Rotation C"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.68cede4c"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Sculptor",
+      "displayName": "赋能·雕塑",
+      "officialUniqueName": "wiki-arcane:Arcane Sculptor",
+      "maxRank": 5,
+      "marketSlug": "arcane_sculptor",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "railjack",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "Hunhow at Pontis Tower",
+        "Uranus Proxima Completion Bonuses"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.d9f5a2d8"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Bellicose",
+      "displayName": "赋能·黩武",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/AbilityStrengthForMaxHealth",
+      "maxRank": 5,
+      "marketSlug": "arcane_bellicose",
+      "tradable": true,
+      "equipmentClass": "Warframe",
+      "slotLabel": "战甲",
+      "categories": [
+        "hollvania",
+        "rank5",
+        "warframe"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "Eleanor of The Hex, Hot & Fresh",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.525115ae"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Emergence Savior",
+      "displayName": "始现·救世",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnDeathInvulnerability",
+      "maxRank": 5,
+      "marketSlug": "emergence_savior",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "operator",
+        "rank5",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Fallen",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7e4a1b37"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Emergence Renewed",
+      "displayName": "始现·新生",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/OperatorOnEnergyDepletedRegenEnergy",
+      "maxRank": 5,
+      "marketSlug": "emergence_renewed",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "operator",
+        "rank5",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Guardian",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7525379a"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Emergence Dissipate",
+      "displayName": "始现·消散",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/EnergyOnGhostDissipate",
+      "maxRank": 5,
+      "marketSlug": "emergence_dissipate",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "operator",
+        "rank5",
+        "zariman"
+      ],
+      "sources": [
+        "Ravenous Void Angel",
+        "The Holdfasts (Cavalero), Angel",
+        "Thrax Centurion",
+        "Thrax Legatus",
+        "Void Angel"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.070c70a3"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Aggress",
+      "displayName": "魔导·侵略",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/OperatorHeavyMeleeDamageOnTransference",
+      "maxRank": 5,
+      "marketSlug": "magus_aggress",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "duviri",
+        "operator",
+        "rank5"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.599b53f1"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Repair",
+      "displayName": "魔导·修复",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidMode",
+      "maxRank": 5,
+      "marketSlug": "magus_repair",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Shadow"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3a7cc4ca"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Replenish",
+      "displayName": "魔导·充盈",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidDash",
+      "maxRank": 5,
+      "marketSlug": "magus_replenish",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "earth",
+        "operator",
+        "quills-nokko",
+        "rank5"
+      ],
+      "sources": [
+        "The Quills, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.bf78f13e"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Revert",
+      "displayName": "魔导·复位",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ReverseOnDash",
+      "maxRank": 5,
+      "marketSlug": "magus_revert",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Shadow"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2b81eb1a"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Husk",
+      "displayName": "魔导·外壳",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ArmourOnOperatorMode",
+      "maxRank": 5,
+      "marketSlug": "magus_husk",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "earth",
+        "operator",
+        "quills-nokko",
+        "rank5"
+      ],
+      "sources": [
+        "The Quills, Observer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.718c0814"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Lockdown",
+      "displayName": "魔导·封锁",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/TetherMineOnDash",
+      "maxRank": 5,
+      "marketSlug": "magus_lockdown",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.01607af6"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Glitch",
+      "displayName": "魔导·干扰",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/NoPenaltyOnDeath",
+      "maxRank": 5,
+      "marketSlug": "magus_glitch",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Shadow"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.997ff492"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Elevate",
+      "displayName": "魔导·振奋",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceIn",
+      "maxRank": 5,
+      "marketSlug": "magus_elevate",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "earth",
+        "operator",
+        "quills-nokko",
+        "rank5"
+      ],
+      "sources": [
+        "The Quills, Architect"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3474bd78"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Vigor",
+      "displayName": "魔导·活力",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealthOnOperatorMode",
+      "maxRank": 5,
+      "marketSlug": "magus_vigor",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "earth",
+        "operator",
+        "quills-nokko",
+        "rank5"
+      ],
+      "sources": [
+        "The Quills, Mote"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.fc4e90f4"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Cloud",
+      "displayName": "魔导·游云",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ImmunityFallDamageOnVoidDash",
+      "maxRank": 5,
+      "marketSlug": "magus_cloud",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "earth",
+        "operator",
+        "quills-nokko",
+        "rank5"
+      ],
+      "sources": [
+        "The Quills, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.2394adca"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Nourish",
+      "displayName": "魔导·滋养",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnTransferenceOut",
+      "maxRank": 5,
+      "marketSlug": "magus_nourish",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "earth",
+        "operator",
+        "quills-nokko",
+        "rank5"
+      ],
+      "sources": [
+        "The Quills, Architect"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.265f9bd2"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Melt",
+      "displayName": "魔导·热熔",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatDamageOnDash",
+      "maxRank": 5,
+      "marketSlug": "magus_melt",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Shadow"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e46021d8"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Destruct",
+      "displayName": "魔导·穿破",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/ProcResistOnBlast",
+      "maxRank": 5,
+      "marketSlug": "magus_destruct",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.08e1ff36"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Accelerant",
+      "displayName": "魔导·触媒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HeatResistOnBlast",
+      "maxRank": 5,
+      "marketSlug": "magus_accelerant",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Shadow"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.f4b31fa9"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Overload",
+      "displayName": "魔导·超载",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/RobotStunOnBlast",
+      "maxRank": 5,
+      "marketSlug": "magus_overload",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Shadow"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.6afc80eb"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Anomaly",
+      "displayName": "魔导·近点",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/PullOnTransferenceIn",
+      "maxRank": 5,
+      "marketSlug": "magus_anomaly",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b583dfcc"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Firewall",
+      "displayName": "魔导·防火墙",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/DamageReductionOnVoidMode",
+      "maxRank": 5,
+      "marketSlug": "magus_firewall",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.3ae3f4fb"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Cadence",
+      "displayName": "魔导·韵律",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/SpeedOnVoidDash",
+      "maxRank": 5,
+      "marketSlug": "magus_cadence",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "earth",
+        "operator",
+        "quills-nokko",
+        "rank5"
+      ],
+      "sources": [
+        "The Quills, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7dbb2a1f"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Magus Drive",
+      "displayName": "魔导·驱动",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HoverboardSpeedOnTransferenceIn",
+      "maxRank": 5,
+      "marketSlug": "magus_drive",
+      "tradable": true,
+      "equipmentClass": "Operator",
+      "slotLabel": "指挥官",
+      "categories": [
+        "little-duck",
+        "operator",
+        "rank5",
+        "venus"
+      ],
+      "sources": [
+        "Vox Solaris, Instrument"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.edfc4d42"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Shield",
+      "displayName": "赋能·保护",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/ImpactProcResist",
+      "maxRank": 5,
+      "marketSlug": null,
+      "tradable": false,
+      "equipmentClass": "Legacy/Unknown",
+      "slotLabel": "旧版",
+      "categories": [
+        "legacy",
+        "rank5"
+      ],
+      "sources": [],
+      "note": "旧版/专属资料，无可用市场条目",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.b19bf69a"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Survival",
+      "displayName": "赋能·求生",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/SlowerBleedOutOnPredeath",
+      "maxRank": 5,
+      "marketSlug": null,
+      "tradable": false,
+      "equipmentClass": "Legacy/Unknown",
+      "slotLabel": "旧版",
+      "categories": [
+        "legacy",
+        "rank5"
+      ],
+      "sources": [],
+      "note": "旧版/专属资料，无可用市场条目",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.fec1d6f9"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Liquid",
+      "displayName": "赋能·液态",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/GasProcResist",
+      "maxRank": 5,
+      "marketSlug": null,
+      "tradable": false,
+      "equipmentClass": "Legacy/Unknown",
+      "slotLabel": "旧版",
+      "categories": [
+        "legacy",
+        "rank5"
+      ],
+      "sources": [],
+      "note": "旧版/专属资料，无可用市场条目",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.ffa34aff"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Temperance",
+      "displayName": "赋能·节制",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/DamageReductionDuringRevive",
+      "maxRank": 5,
+      "marketSlug": null,
+      "tradable": false,
+      "equipmentClass": "Legacy/Unknown",
+      "slotLabel": "旧版",
+      "categories": [
+        "legacy",
+        "rank5"
+      ],
+      "sources": [],
+      "note": "旧版/专属资料，无可用市场条目",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.ef6a5a17"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Detoxifier",
+      "displayName": "赋能·解毒",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/PoisonProcResist",
+      "maxRank": 5,
+      "marketSlug": null,
+      "tradable": false,
+      "equipmentClass": "Legacy/Unknown",
+      "slotLabel": "旧版",
+      "categories": [
+        "legacy",
+        "rank5"
+      ],
+      "sources": [],
+      "note": "旧版/专属资料，无可用市场条目",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.41359a17"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Defense",
+      "displayName": "赋能·防御",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/PunctureProcResist",
+      "maxRank": 5,
+      "marketSlug": null,
+      "tradable": false,
+      "equipmentClass": "Legacy/Unknown",
+      "slotLabel": "旧版",
+      "categories": [
+        "legacy",
+        "rank5"
+      ],
+      "sources": [],
+      "note": "旧版/专属资料，无可用市场条目",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.5fe39e65"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Arcane Protection",
+      "displayName": "赋能·防蚀",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/CorrosiveProcResist",
+      "maxRank": 5,
+      "marketSlug": null,
+      "tradable": false,
+      "equipmentClass": "Legacy/Unknown",
+      "slotLabel": "旧版",
+      "categories": [
+        "legacy",
+        "rank5"
+      ],
+      "sources": [],
+      "note": "旧版/专属资料，无可用市场条目",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.6b8bd292"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Pax Charge",
+      "displayName": "和平·电充",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BulletToBattery",
+      "maxRank": 3,
+      "marketSlug": "pax_charge",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary",
+        "venus"
+      ],
+      "sources": [
+        "Solaris United (Rude Zuud), Old Mate"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.e14f8b15"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Pax Bolt",
+      "displayName": "和平·电闪",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/EnergyEfficiencyOnHeadshot",
+      "maxRank": 3,
+      "marketSlug": "pax_bolt",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary",
+        "venus"
+      ],
+      "sources": [
+        "Solaris United (Rude Zuud), Old Mate"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.8f7c0754"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Pax Seeker",
+      "displayName": "和平·追寻者",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SeekerProjOnHeadshotKill",
+      "maxRank": 3,
+      "marketSlug": "pax_seeker",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary",
+        "venus"
+      ],
+      "sources": [
+        "Solaris United (Rude Zuud), Old Mate"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.c48e8010"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Pax Soar",
+      "displayName": "和平·高飞",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/EyeInTheSky",
+      "maxRank": 3,
+      "marketSlug": "pax_soar",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary",
+        "venus"
+      ],
+      "sources": [
+        "Solaris United (Rude Zuud), Old Mate"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.6569822d"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Residual Malodor",
+      "displayName": "残差·恶嗅",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/IceMistOnKill",
+      "maxRank": 3,
+      "marketSlug": "residual_malodor",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "cambion",
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary"
+      ],
+      "sources": [
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation B"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7f9b19b8"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Residual Viremia",
+      "displayName": "残差·毒血",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ToxicBloodOnKill",
+      "maxRank": 3,
+      "marketSlug": "residual_viremia",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "cambion",
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary"
+      ],
+      "sources": [
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation B",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation B"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.90b79be0"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Residual Boils",
+      "displayName": "残差·燃沸",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BurningCystOnKill",
+      "maxRank": 3,
+      "marketSlug": "residual_boils",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "cambion",
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary"
+      ],
+      "sources": [
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation A"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.fc013616"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Residual Shock",
+      "displayName": "残差·电击",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LightningStrikeOnKill",
+      "maxRank": 3,
+      "marketSlug": "residual_shock",
+      "tradable": true,
+      "equipmentClass": "Kitgun",
+      "slotLabel": "组合枪",
+      "categories": [
+        "cambion",
+        "kitgun",
+        "primary",
+        "rank3",
+        "secondary"
+      ],
+      "sources": [
+        "Deimos/Cambion Drift (Level 30 - 40 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 30 - 40 Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 40 - 50 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 40 - 50 Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 50 - 60 Arcana Isolation Vault), Rotation A",
+        "Deimos/Cambion Drift (Level 50 - 60 Isolation Vault), Rotation A"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.77162925"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Influence",
+      "displayName": "近战·侵染",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeProcsSpread",
+      "maxRank": 5,
+      "marketSlug": "melee_influence",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Bird 3, Scholar",
+        "Mocking Whisper",
+        "Scathing Whisper",
+        "The Fragmented Suzerain"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.dc07407e"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Duplicate",
+      "displayName": "近战·刃影",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ReplayLightCritHits",
+      "maxRank": 5,
+      "marketSlug": "melee_duplicate",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Deep Archimedea Arcane",
+        "Deep Archimedea Gold Rewards",
+        "Deep Archimedea Silver Rewards",
+        "Entrati Netracell Coffer (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.219c5598"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Assimilation",
+      "displayName": "近战·同化",
+      "officialUniqueName": "wiki-arcane:Melee Assimilation",
+      "maxRank": 5,
+      "marketSlug": "melee_assimilation",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "railjack",
+        "rank5"
+      ],
+      "sources": [
+        "Hunhow at Pontis Tower",
+        "Uranus Proxima Completion Bonuses"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.7199a763"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Fortification",
+      "displayName": "近战·坚壁",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnMeleeKill",
+      "maxRank": 5,
+      "marketSlug": "melee_fortification",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Bird 3, Colleague",
+        "Mocking Whisper",
+        "Scathing Whisper",
+        "The Fragmented Suzerain"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.1702a058"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Animosity",
+      "displayName": "近战·憎恶",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyCritOnRegularMelee",
+      "maxRank": 5,
+      "marketSlug": "melee_animosity",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Bird 3, Scholar",
+        "Mocking Whisper",
+        "Scathing Whisper",
+        "The Fragmented Suzerain"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.cf53447b"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Retaliation",
+      "displayName": "近战·报复",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageForActiveShields",
+      "maxRank": 5,
+      "marketSlug": "melee_retaliation",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Bird 3, Colleague",
+        "Mocking Whisper",
+        "Scathing Whisper",
+        "The Fragmented Suzerain"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.9655d022"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Doughty",
+      "displayName": "近战·无畏",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritDamageForPunctureStatus",
+      "maxRank": 5,
+      "marketSlug": "melee_doughty",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "hollvania",
+        "melee",
+        "rank5"
+      ],
+      "sources": [
+        "1999 Exterminate Cache",
+        "Eleanor of The Hex, Fresh Slice",
+        "H-09 Efervon Tank",
+        "Höllvania/Antivirus Bounty (Caches)",
+        "Höllvania/Exterminate: Scaldra (Caches)",
+        "Höllvania/Exterminate: Techrot (Caches)",
+        "Scaldra Screamer"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.188a6c9c"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Exposure",
+      "displayName": "近战·暴露",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CorrosiveMeleePerAbilityCast",
+      "maxRank": 5,
+      "marketSlug": "melee_exposure",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Bird 3, Scholar",
+        "Mocking Whisper",
+        "Scathing Whisper",
+        "The Fragmented Suzerain"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.a13bf693"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Crescendo",
+      "displayName": "近战·渐强",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PermaComboOnFinisher",
+      "maxRank": 5,
+      "marketSlug": "melee_crescendo",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Deep Archimedea Arcane",
+        "Deep Archimedea Gold Rewards",
+        "Deep Archimedea Silver Rewards",
+        "Entrati Netracell Coffer (Level 0 - 100)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.5f006372"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Vortex",
+      "displayName": "近战·漩涡",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/PullEnemiesOnMeleeKill",
+      "maxRank": 5,
+      "marketSlug": "melee_vortex",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Bird 3, Scholar",
+        "Mocking Whisper",
+        "Scathing Whisper",
+        "The Fragmented Suzerain"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.ad74d9a9"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Careen",
+      "displayName": "近战·疾驰",
+      "officialUniqueName": "wiki-arcane:Melee Careen",
+      "maxRank": 5,
+      "marketSlug": "melee_careen",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "descendia",
+        "melee",
+        "rank5",
+        "sanctum"
+      ],
+      "sources": [
+        "Roathe at La Cathédrale (5 Maphica)",
+        "Steel Path The Descendia weekly reward"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.cbfd2620"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Melee Afflictions",
+      "displayName": "近战·苦痛",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/DuplicateStatusOnKnock",
+      "maxRank": 5,
+      "marketSlug": "melee_afflictions",
+      "tradable": true,
+      "equipmentClass": "Melee",
+      "slotLabel": "近战",
+      "categories": [
+        "ascension",
+        "melee",
+        "rank5"
+      ],
+      "sources": [
+        "Ordis at Drifter's Camp",
+        "Sister Of Parvos (Ascension)"
+      ],
+      "note": "",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.f2e95ca3"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    },
+    {
+      "canonical": "Shotgun Vendetta",
+      "displayName": "霰弹·仇杀",
+      "officialUniqueName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ShotgunMultishotAndReloadSpeedOnCloseKill",
+      "maxRank": 5,
+      "marketSlug": "shotgun_vendetta",
+      "tradable": true,
+      "equipmentClass": "Shotgun",
+      "slotLabel": "霰弹枪",
+      "categories": [
+        "archgun",
+        "duviri",
+        "primary",
+        "rank5"
+      ],
+      "sources": [
+        "Acrithis daily rotation",
+        "Duviri/Endless: Repeated Rewards (Hard)",
+        "Duviri/Endless: Tier 1 (Hard)",
+        "Duviri/Endless: Tier 3 (Hard)",
+        "Duviri/Endless: Tier 4 (Hard)",
+        "Optional Undercroft Portals in Duviri on Steel Path",
+        "Steel Path Circuit weekly progress rewards"
+      ],
+      "note": "空战仅适用于 Corvas、Corvas Prime、Mandonel。",
+      "evidence": [
+        {
+          "source": "knowledge.acquisition.arcane",
+          "documentId": "knowledge.acquisition.arcane.73055ead"
+        },
+        {
+          "url": "https://www.warframe.com/en/patch-notes/pc/40-0-0",
+          "scope": "Archgun primary/secondary slots; Nightcap sources"
+        }
+      ]
+    }
+  ],
+  "classificationPolicy": "multiple source and equipment tags; geographic parents from actual source identity",
+  "notes": [
+    "夜羽/nokko 类别覆盖地球夜羽与 Nokko/深矿相关赋能；地区按各条目的实际来源分别保留地球或金星。",
+    "空战按可装备来源分类：主/副武器通用赋能与霰弹赋能；弓专属和组合枪专属不算空战。",
+    "不把洛德的通用赋能溶解包一概算成圣所来源，以免全部来源类别失去意义。"
+  ]
+}

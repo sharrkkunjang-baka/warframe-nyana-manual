@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "note": "Baro 物品持久化汉化映射：key 用 canonical 或图集英文名，value 用官方简中名（取自 wf-dict-zh.json 的官方键，不猜测）。",
+  "entries": {
+    "Primed Archwing Damage On Reload Mod": "致命效率 Prime",
+    "Primed Archwing Rifle Fire Iterations Mod": "双重弹头 Prime",
+    "Zylok Exilis Skin": "席尔火枪 镀铜外观",
+    "Prisma Lenz Weapon": "棱晶·楞次弓",
+    "The Stranger's Hood (Operator)": "漂泊者头罩",
+    "Weapon Melee Faction Damage Murmur Mod": "毁灭低语者",
+    "Baro Ki'Teer Noggle": "Baro Ki'Teer 摇头娃娃",
+    "Tenet Detron": "信条·德特昂"
+  }
+}

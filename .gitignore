@@ -1,0 +1,19 @@
+# Editor and operating system files
+Thumbs.db
+.DS_Store
+*.swp
+*~
+
+# Backups and temporary probes
+*.bak
+*.bak-*
+*.tmp
+variables/codex-sshfs-rename-test.txt
+
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12

@@ -1,0 +1,26 @@
+{
+  "stableEntityId": "vehicle.railjack",
+  "canonical": "Railjack",
+  "displayName": "航道星舰",
+  "assetRole": "build-main-image",
+  "relativePath": "载具/航道星舰/航道星舰.png",
+  "sha256": "8c9d48f263e41f20ca8857a9fa1354f31f3fbc6930dfef0adecc917f8aa8c075",
+  "bytes": 99478,
+  "width": 512,
+  "height": 512,
+  "hasAlpha": true,
+  "transparentRatio": 0.67,
+  "imagePresent": true,
+  "provenance": {
+    "source": "wiki.warframe.com",
+    "sourceUrl": "https://wiki.warframe.com/w/Railjack",
+    "mediaUrl": "https://wiki.warframe.com/images/RailjackMarket.png",
+    "mediaFile": "File:RailjackMarket.png",
+    "mediaQuery": "?207c4",
+    "contentType": "image/png",
+    "fetchedAt": "2026-08-02T18:12:53.062Z",
+    "reviewStatus": "approved-from-current-wiki",
+    "fetchMethod": "playwright-browser-session-fetch",
+    "presentationNote": "512x512 official market/store icon from Railjack infobox; transparent inventory-style asset"
+  }
+}
