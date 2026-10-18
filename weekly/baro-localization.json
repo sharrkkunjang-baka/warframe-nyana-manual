@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "note": "Baro 物品持久化汉化映射：key 用 canonical 或图集英文名，value 用官方简中名（取自 wf-dict-zh.json 的官方键，不猜测）。",
+  "note": "Baro 持久化汉化：优先使用去掉外层 StoreItems 的物品稳定路径；中文来自官方简中语言表与现有 Public Export 目录。",
   "entries": {
     "Primed Archwing Damage On Reload Mod": "致命效率 Prime",
     "Primed Archwing Rifle Fire Iterations Mod": "双重弹头 Prime",
@@ -9,6 +9,338 @@
     "The Stranger's Hood (Operator)": "漂泊者头罩",
     "Weapon Melee Faction Damage Murmur Mod": "毁灭低语者",
     "Baro Ki'Teer Noggle": "Baro Ki'Teer 摇头娃娃",
-    "Tenet Detron": "信条·德特昂"
+    "Tenet Detron": "信条·德特昂",
+    "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechSkin": "终劫殁世机甲外观",
+    "/Lotus/Upgrades/Skins/MeleeDangles/EvilBaroSugatraMeleeDangle": "终劫坠饰",
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBaroEvil": "终劫 Ki'Teer 玩偶",
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorC": "终劫 Ki'Teer 护胸",
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorA": "终劫 Ki'Teer 护肩",
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorL": "终劫 Ki'Teer 护膝",
+    "/Lotus/Upgrades/Skins/Weapons/Grimoire/GrimoireEvilBaroSkin": "终劫魔典外观",
+    "/Lotus/Upgrades/Skins/VoidTrader/EvilBaroSilvaAndAegis": "席瓦 & 神盾 终劫外观",
+    "/Lotus/Upgrades/Skins/Effects/BaroEvilEphemera": "终劫 Ki'Teer 幻纹",
+    "/Lotus/Upgrades/Skins/Sigils/EvilBaroNecraloidSigil": "终劫殁世械灵纹章",
+    "/Lotus/Upgrades/CosmeticEnhancers/Peculiars/DissolveEnemyMod": "终劫怪奇",
+    "/Lotus/Types/Items/ShipDecos/Props/EvilBaroFloatingCandlesShipDeco": "纳贝流士悬浮蜡烛",
+    "/Lotus/Types/StoreItems/AvatarImages/ImageBaroKiteerEvil": "终劫 Ki'Teer 浮印",
+    "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorHalloweenA": "维萨亡灵节库娃护甲",
+    "/Lotus/Upgrades/Skins/VoidTrader/VTHalloweenDarkSword": "暗黑长剑亡灵节外观",
+    "/Lotus/Upgrades/Skins/Halloween/HalloweenDread": "恐惧亡灵节外观",
+    "/Lotus/Types/StoreItems/AvatarImages/Seasonal/Halloween2019GrendelTreat": "在我腹中浮印",
+    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeRangeIncModExpert": "剑风 Prime",
+    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponToxinDamageModExpert": "热病打击 Prime",
+    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponCritChanceModBeginnerExpert": "手枪精通 Prime",
+    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageInfestedExpert": "驱逐 Infested Prime",
+    "/Lotus/Upgrades/Mods/Pistol/WeaponEventSlashDamageMod": "致残枪弹",
+    "/Lotus/Upgrades/Mods/Rifle/DualStat/ElectEventRifleMod": "高压电流",
+    "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponRifleConvertAmmoModExpert": "步枪弹药转换 Prime",
+    "/Lotus/Upgrades/Mods/Rifle/WeaponEventRifleImpactDamageMod": "连续冲击",
+    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageCorpusExpert": "净化 Corpus Prime",
+    "/Lotus/Upgrades/Skins/Scarves/VTDinoSpikeScarf": "棱晶 山越披饰",
+    "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/PrismaCorpusUMP": "棱晶·特拉",
+    "/Lotus/Types/Restoratives/Consumable/BaroFireWorksCrate": "Ki'Teer 烟花",
+    "/Lotus/Types/Sentinels/SentinelPrecepts/PrimedRegen": "重生 Prime",
+    "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageGrineer": "灭亡 Grineer Prime",
+    "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinPrimeTrader": "Mantis 棱晶外观",
+    "/Lotus/Upgrades/Skins/VoidTrader/VTRedeemerSkin": "救赎者 镀铜外观",
+    "/Lotus/Types/StoreItems/Boosters/ResourceAmount3DayStoreItem": "3 天资源数量加成",
+    "/Lotus/Types/Game/Projections/T4VoidProjectionVoltOdonataPrimeBronze": "后纪 V8 遗物",
+    "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon": "棱晶·双子小精灵",
+    "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorPrisma": "棱晶 洛斯塔姆库狛护甲",
+    "/Lotus/Upgrades/Skins/VoidTrader/BaroScytheMacheteSkin": "砍刀萨切德外观",
+    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageCorruptedExpert": "净化 Orokin Prime",
+    "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaro": "内务 Ki'Teer 无人机",
+    "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorA": "塔努凯肩甲",
+    "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorC": "塔努凯胸甲",
+    "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorL": "塔努凯腿甲",
+    "/Lotus/Types/Items/ShipDecos/Leverian/IvaraLeverianPovisRecordsDecoration": "复刻秘史",
+    "/Lotus/Types/Items/ShipDecos/EraHypnosisPoster": "「不要害怕」海报",
+    "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon": "真月武扇",
+    "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitNovaEngineer": "「蒙面者的经纬仪号」船员套服",
+    "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesNovaEngineer": "「蒙面者的经纬仪号」船员套服袖件",
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageExcaliburActionProto": "Excalibur 原型护甲战斗姿态浮印",
+    "/Lotus/Upgrades/Skins/Weapons/Rapier/CrpRapierSkin": "细剑征财外观",
+    "/Lotus/Types/Items/SongItems/TheSacrificeLoginSongItem": "《牺牲》登录音乐",
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyInaros": "Inaros 玩偶",
+    "/Lotus/Types/Keys/MummyQuestKeyBlueprint": "沙漠古墓",
+    "/Lotus/Upgrades/Skins/Effects/FootstepsMaple": "仙子之径幻纹",
+    "/Lotus/Types/BoosterPacks/BaroTreasureBox": "虚空余货"
+  },
+  "identitySources": {
+    "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechSkin": {
+      "languageKey": "/Lotus/Language/Skins/EvilBaroNecramechSkinName",
+      "canonical": "Eskhatos Necramech Skin",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/MeleeDangles/EvilBaroSugatraMeleeDangle": {
+      "languageKey": "/Lotus/Language/Cosmetics/EvilBaroSugatraMeleeDangleName",
+      "canonical": "Eskhatos Sugatra",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyBaroEvil": {
+      "languageKey": "/Lotus/Language/ShipDecorations/PlushyBaroEvilName",
+      "canonical": "Eskhatos Ki'Teer Floof",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorC": {
+      "languageKey": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorCName",
+      "canonical": "Eskhatos Ki'Teer Chest Guard",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorA": {
+      "languageKey": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorAName",
+      "canonical": "Eskhatos Ki'Teer Shoulder Guards",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorL": {
+      "languageKey": "/Lotus/Language/Cosmetics/EvilBaroArcaArmorLName",
+      "canonical": "Eskhatos Ki'Teer Knee Guards",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Weapons/Grimoire/GrimoireEvilBaroSkin": {
+      "languageKey": "/Lotus/Language/Skins/GrimoireEvilBaroSkinName",
+      "canonical": "Eskhatos Grimoire Skin",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/VoidTrader/EvilBaroSilvaAndAegis": {
+      "languageKey": "/Lotus/Language/Skins/EvilBaroSilvaAegisSkinName",
+      "canonical": "Silva & Aegis Eskhatos Skin",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Effects/BaroEvilEphemera": {
+      "languageKey": "/Lotus/Language/Ephemera/BaroEvilEphemeraName",
+      "canonical": "Eskhatos Ki'Teer Ephemera",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Sigils/EvilBaroNecraloidSigil": {
+      "languageKey": "/Lotus/Language/Sigils/EvilBaroNecraloidSigilName",
+      "canonical": "Eskhatos Necraloid Sigil",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/CosmeticEnhancers/Peculiars/DissolveEnemyMod": {
+      "languageKey": "/Lotus/Language/Mods/PerculiarDissolveEnemyMod",
+      "canonical": "Peculiar End",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Types/Items/ShipDecos/Props/EvilBaroFloatingCandlesShipDeco": {
+      "languageKey": "/Lotus/Language/ShipDecorations/EvilBaroFloatingCandlesShipDecoName",
+      "canonical": "Naberus Floating Candles",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/ImageBaroKiteerEvil": {
+      "languageKey": "/Lotus/Language/Cosmetics/AvatarBaroKiteerEvilName",
+      "canonical": "Eskhatos Ki'Teer Glyph",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorHalloweenA": {
+      "languageKey": null,
+      "canonical": "Wysar Day Of The Dead Kavat Armor",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/VoidTrader/VTHalloweenDarkSword": {
+      "languageKey": null,
+      "canonical": "Dark Sword Day Of The Dead Skin",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Halloween/HalloweenDread": {
+      "languageKey": null,
+      "canonical": "Dread Day Of The Dead Skin",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/Seasonal/Halloween2019GrendelTreat": {
+      "languageKey": null,
+      "canonical": "",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeRangeIncModExpert": {
+      "languageKey": null,
+      "canonical": "Primed Reach",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Melee/Expert/WeaponToxinDamageModExpert": {
+      "languageKey": null,
+      "canonical": "Primed Fever Strike",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponCritChanceModBeginnerExpert": {
+      "languageKey": null,
+      "canonical": "Primed Pistol Gambit",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageInfestedExpert": {
+      "languageKey": null,
+      "canonical": "Primed Expel Infested",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Pistol/WeaponEventSlashDamageMod": {
+      "languageKey": null,
+      "canonical": "Maim",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Rifle/DualStat/ElectEventRifleMod": {
+      "languageKey": null,
+      "canonical": "High Voltage",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponRifleConvertAmmoModExpert": {
+      "languageKey": null,
+      "canonical": "Primed Rifle Ammo Mutation",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Rifle/WeaponEventRifleImpactDamageMod": {
+      "languageKey": null,
+      "canonical": "Crash Course",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageCorpusExpert": {
+      "languageKey": null,
+      "canonical": "Primed Cleanse Corpus",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Scarves/VTDinoSpikeScarf": {
+      "languageKey": null,
+      "canonical": "Prisma Yamako Syandana",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Weapons/Corpus/LongGuns/CorpusUMP/PrismaCorpusUMP": {
+      "languageKey": null,
+      "canonical": "Prisma Tetra",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Restoratives/Consumable/BaroFireWorksCrate": {
+      "languageKey": null,
+      "canonical": "Ki'Teer Fireworks",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Sentinels/SentinelPrecepts/PrimedRegen": {
+      "languageKey": null,
+      "canonical": "Primed Regen",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageGrineer": {
+      "languageKey": null,
+      "canonical": "Primed Bane Of Grineer",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinPrimeTrader": {
+      "languageKey": null,
+      "canonical": "Mantis Prisma Skin",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/VoidTrader/VTRedeemerSkin": {
+      "languageKey": null,
+      "canonical": "Redeemer Elixis Skin",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/StoreItems/Boosters/ResourceAmount3DayStoreItem": {
+      "languageKey": null,
+      "canonical": "",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Game/Projections/T4VoidProjectionVoltOdonataPrimeBronze": {
+      "languageKey": null,
+      "canonical": "",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon": {
+      "languageKey": null,
+      "canonical": "Prisma Twin Gremlins",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorPrisma": {
+      "languageKey": null,
+      "canonical": "Prisma Rostam Kubrow Armor",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/VoidTrader/BaroScytheMacheteSkin": {
+      "languageKey": null,
+      "canonical": "Machete Syachid Skin",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Mods/Shotgun/Expert/WeaponShotgunFactionDamageCorruptedExpert": {
+      "languageKey": null,
+      "canonical": "Primed Cleanse Orokin",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Items/ShipDecos/LisetPropCleaningDroneBaro": {
+      "languageKey": null,
+      "canonical": "Domestik Ki'Teer Drone",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorA": {
+      "languageKey": null,
+      "canonical": "Tannukai Shoulder Plates",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorC": {
+      "languageKey": null,
+      "canonical": "Tannukai Chest Plate",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorL": {
+      "languageKey": null,
+      "canonical": "Tannukai Leg Plates",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Items/ShipDecos/Leverian/IvaraLeverianPovisRecordsDecoration": {
+      "languageKey": null,
+      "canonical": "Secret History Replica",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Items/ShipDecos/EraHypnosisPoster": {
+      "languageKey": null,
+      "canonical": "Don'T Be Afraid Poster",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon": {
+      "languageKey": null,
+      "canonical": "Vericres",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitNovaEngineer": {
+      "languageKey": null,
+      "canonical": "Masker's Theodolite Crewsuit",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesNovaEngineer": {
+      "languageKey": null,
+      "canonical": "Masker's Theodolite Crewsuit Sleeves",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/StoreItems/AvatarImages/AvatarImageExcaliburActionProto": {
+      "languageKey": null,
+      "canonical": "",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Upgrades/Skins/Weapons/Rapier/CrpRapierSkin": {
+      "languageKey": null,
+      "canonical": "Rapier Tributaker Skin",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Items/SongItems/TheSacrificeLoginSongItem": {
+      "languageKey": null,
+      "canonical": "The Sacrifice Login Music",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Items/ShipDecos/Plushies/PlushyInaros": {
+      "languageKey": null,
+      "canonical": "Inaros Floof",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/Keys/MummyQuestKeyBlueprint": {
+      "languageKey": "/Lotus/Language/G1Quests/MummyQuestKeyName",
+      "canonical": "Desert Tomb",
+      "source": "DE Languages.bin"
+    },
+    "/Lotus/Upgrades/Skins/Effects/FootstepsMaple": {
+      "languageKey": null,
+      "canonical": "Fae Path Ephemera",
+      "source": "existing official catalog / Public Export i18n"
+    },
+    "/Lotus/Types/BoosterPacks/BaroTreasureBox": {
+      "languageKey": "/Lotus/Language/BaroTreasureBox/BaroTreasureBoxName",
+      "canonical": "Void Surplus",
+      "source": "DE Languages.bin"
+    }
   }
 }
