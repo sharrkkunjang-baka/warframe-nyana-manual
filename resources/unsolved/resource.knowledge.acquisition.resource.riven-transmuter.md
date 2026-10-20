@@ -7,6 +7,7 @@ directAliases: []
 subjectRef: knowledge.acquisition.resource.riven-transmuter
 parameters: []
 priority: 100
-mergeMode: none
+mergeMode: replace
 ---
-待补：请在此填写“裂罅转换器”已核验的刷取建议。
+击杀夜灵水力使
+每周可于地球——钢铁守望处兑换1个

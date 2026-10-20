@@ -7,6 +7,6 @@ directAliases: []
 subjectRef: knowledge.acquisition.resource.experimental-arc-relay
 parameters: []
 priority: 100
-mergeMode: none
+mergeMode: replace
 ---
-待补：请在此填写“实验性电弧继电器”已核验的刷取建议。
+击杀科腐者敌人或破坏资源容器
