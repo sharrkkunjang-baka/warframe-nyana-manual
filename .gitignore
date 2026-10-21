@@ -17,3 +17,4 @@ variables/codex-sshfs-rename-test.txt
 *.key
 *.pfx
 *.p12
+README.md
