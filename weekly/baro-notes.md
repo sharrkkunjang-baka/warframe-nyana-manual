@@ -118,6 +118,7 @@
 
 ## 猛烈爆发 PRIME
 描述：{阿利乌双枪_Prime图标|阿利乌}{葬铭_Prime图标|葬铭}{Hildryn_Prime图标|Hildryn}{野火充能_prime图标|母牛显赫}必备卡
+推荐：是
 
 ## 霰弹扩充
 描述：孩子们我有PRIME版本
