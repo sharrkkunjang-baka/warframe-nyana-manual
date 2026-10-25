@@ -43,3 +43,7 @@
 ## Companion Weapon Riven Mod (Veiled)
 别名：同伴未开、同伴武器未开
 模式：追加
+
+## Sentient Incision
+别名：恶煞切口、恶灵切口
+模式：追加
