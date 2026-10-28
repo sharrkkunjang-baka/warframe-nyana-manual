@@ -139,6 +139,7 @@
 
 ## recoil
 显示：后坐
+别称：武器后坐力、武器后座力、武器后坐、武器后座、后坐力、后座力、后坐、后座、weapon recoil、recoil
 参考英文名：Weapon Recoil
 参考gameRef：WeaponRecoilReductionMod
 
